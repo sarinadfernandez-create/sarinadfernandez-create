@@ -1,4 +1,4 @@
-# Hi, I'm Sarina! 👋
+<img src="https://raw.githubusercontent.com/sarinadfernandez-create/sarinadfernandez-create/main/hello.svg" alt="Hi, I'm Sarina! 👋" width="500" />
 
 Member of Technical Staff at **[Naïve](https://usenaive.ai/)** and CS student at the **University of Pennsylvania**, building the memory layer for long-lived infrastructure agents.
 
