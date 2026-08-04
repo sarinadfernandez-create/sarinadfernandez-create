@@ -5,7 +5,7 @@
 
 <!-- Typing animation -->
 <a href="https://github.com/sarinadfernandez-create">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=A277FF&center=true&vCenter=true&width=520&lines=hi%2C+I'm+Sarina+%F0%9F%91%8B;I+stress-test+LLM+agent+memory;retrieval%2C+routing%2C+failure+modes;currently+compounding..." alt="typing animation" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=A277FF&center=true&vCenter=true&width=520&lines=hi%2C+I'm+Sarina+%F0%9F%91%8B" alt="typing animation" />
 </a>
 
 <br/><br/>
@@ -17,13 +17,6 @@
 <img src="https://img.shields.io/badge/Evals-61FFCA?style=for-the-badge&logo=speedtest&logoColor=black" />
 
 </div>
-
-## 🧠 what I'm up to
-
-- 🔬 Building **[CompoundingMemoryAgent](https://github.com/sarinadfernandez-create/CompoundingMemoryAgent)** — a research harness that isolates **five distinct failure modes** in agent memory (routing, reasoning bottlenecks, alignment, displacement, content gaps)
-- 🧪 Comparing warm/cold memory configs: `warm_full` · `warm_routed` · `warm_rag` · `rag_cascade` · `hyde`
-- 📈 Core finding so far: *"the technique that fixes one failure mode often introduces another"*
-- 🌱 Always poking at retrieval strategies, playbook-style memory, and agent evals
 
 ## 📊 stats
 
