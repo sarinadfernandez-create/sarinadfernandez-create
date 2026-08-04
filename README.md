@@ -1,5 +1,5 @@
 <!-- Animated wave header — the gradient is randomized on every page load, so the colors literally change each visit -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=sarina%20fernandez&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=breaking%20LLM%20agent%20memory%20so%20you%20don%27t%20have%20to&descAlignY=55&descSize=18" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=sarina%20fernandez&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=35" />
 
 <div align="center">
 
