@@ -2,8 +2,6 @@
 
 Member of Technical Staff at **[Naïve](https://usenaive.ai/)** and CS student at the **University of Pennsylvania**, building the memory layer for long-lived infrastructure agents.
 
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=sarinadfernandez-create&show_icons=true&theme=github_dark&hide_border=true&bg_color=161b22&title_color=58a6ff&icon_color=3fb950" />
-
 ## About Me
 
 - At **Naïve**, I work on an event-sourced memory system where an LLM curator distills conversations into verified, supersedable facts — reconciled against reality, with audit-grade evidence trails
