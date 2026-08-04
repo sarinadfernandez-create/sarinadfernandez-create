@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="170" viewBox="0 0 800 170" role="img" aria-label="Play Axolotl Run">
+  <defs>
+    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#38a3d8">
+        <animate attributeName="stop-color" values="#38a3d8;#4f8ef7;#38b8ad;#38a3d8" dur="10s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#123e66">
+        <animate attributeName="stop-color" values="#123e66;#2a2f7a;#0e4f55;#123e66" dur="10s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <clipPath id="frame"><rect x="0" y="0" width="800" height="170" rx="16"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="800" height="170" fill="url(#water)"/>
+
+    <!-- light rays -->
+    <g fill="#ffffff" opacity="0.07">
+      <polygon points="120,-10 200,-10 150,170 60,170"/>
+      <polygon points="480,-10 560,-10 510,170 420,170"/>
+    </g>
+
+    <!-- sand -->
+    <rect y="132" width="800" height="38" fill="#e8cf9d"/>
+    <g fill="#d9bd85">
+      <rect x="60" y="146" width="9" height="3" rx="1.5"/>
+      <rect x="230" y="152" width="9" height="3" rx="1.5"/>
+      <rect x="420" y="144" width="9" height="3" rx="1.5"/>
+      <rect x="610" y="150" width="9" height="3" rx="1.5"/>
+      <rect x="730" y="143" width="9" height="3" rx="1.5"/>
+    </g>
+
+    <!-- scrolling coral obstacle (loops every 4s) -->
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="820 0; -80 0" dur="4s" repeatCount="indefinite"/>
+      <g transform="translate(0 132)">
+        <rect x="-14" y="-40" width="10" height="40" rx="5" fill="#ff7f66"/>
+        <circle cx="-9" cy="-40" r="6" fill="#ff7f66"/>
+        <rect x="-2" y="-52" width="10" height="52" rx="5" fill="#ff5e7e"/>
+        <circle cx="3" cy="-52" r="6" fill="#ff5e7e"/>
+        <rect x="10" y="-34" width="10" height="34" rx="5" fill="#ff9a76"/>
+        <circle cx="15" cy="-34" r="6" fill="#ff9a76"/>
+      </g>
+    </g>
+
+    <!-- bubbles -->
+    <g stroke="#ffffff" stroke-opacity="0.5" fill="none">
+      <circle cx="300" cy="0" r="4">
+        <animate attributeName="cy" values="180;-10" dur="6s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="560" cy="0" r="3">
+        <animate attributeName="cy" values="180;-10" dur="7.5s" begin="2s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="680" cy="0" r="5">
+        <animate attributeName="cy" values="180;-10" dur="5.2s" begin="1s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="150" cy="0" r="3">
+        <animate attributeName="cy" values="180;-10" dur="8s" begin="3.4s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <!-- axolotl (jumps in sync with the coral arriving) -->
+    <g transform="translate(120 128)">
+      <g>
+        <animateTransform attributeName="transform" type="translate"
+          values="0 0; 0 0; 0 -48; 0 -60; 0 -48; 0 0; 0 0"
+          keyTimes="0; 0.66; 0.73; 0.775; 0.82; 0.9; 1"
+          dur="4s" repeatCount="indefinite"/>
+
+        <!-- tail -->
+        <path d="M -34 -16 Q -64 -30 -74 -14 Q -64 2 -34 -6 Z" fill="#ff9fbe">
+          <animateTransform attributeName="transform" type="rotate" values="0 -34 -11; 7 -34 -11; 0 -34 -11; -5 -34 -11; 0 -34 -11" dur="1.2s" repeatCount="indefinite"/>
+        </path>
+        <!-- back leg -->
+        <rect x="-20" y="-6" width="9" height="11" rx="4" fill="#ff9fbe"/>
+        <!-- body -->
+        <rect x="-36" y="-30" width="62" height="30" rx="14" fill="#ffb1c8"/>
+        <rect x="-30" y="-14" width="48" height="12" rx="6" fill="#ffd4e0"/>
+        <!-- head -->
+        <circle cx="30" cy="-18" r="21" fill="#ffb1c8"/>
+        <!-- gills -->
+        <g fill="#ff5c8a">
+          <animateTransform attributeName="transform" type="rotate" values="0 18 -30; 5 18 -30; 0 18 -30; -4 18 -30; 0 18 -30" dur="1.4s" repeatCount="indefinite"/>
+          <ellipse cx="8" cy="-42" rx="12" ry="4.5" transform="rotate(-35 8 -42)"/>
+          <ellipse cx="4" cy="-34" rx="13" ry="4.5" transform="rotate(-8 4 -34)"/>
+          <ellipse cx="5" cy="-25" rx="11" ry="4.5" transform="rotate(20 5 -25)"/>
+        </g>
+        <!-- front leg -->
+        <rect x="14" y="-6" width="9" height="11" rx="4" fill="#ff9fbe"/>
+        <!-- face -->
+        <circle cx="37" cy="-21" r="4.4" fill="#2b2b3a"/>
+        <circle cx="38.6" cy="-22.6" r="1.6" fill="#ffffff"/>
+        <ellipse cx="41" cy="-12" rx="5" ry="3" fill="#ff6e96" opacity="0.55"/>
+        <path d="M 41 -17 A 5 5 0 0 0 48 -14" stroke="#c2557d" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+      </g>
+    </g>
+
+    <!-- call to action -->
+    <text x="784" y="26" text-anchor="end" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#ffffff" opacity="0.85">▶ click to play axolotl run</text>
+  </g>
+</svg>
