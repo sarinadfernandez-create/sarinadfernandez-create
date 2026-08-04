@@ -2,6 +2,8 @@
 
 Member of Technical Staff at **[Naïve](https://usenaive.ai/)** and CS student at the **University of Pennsylvania**, building the memory layer for long-lived infrastructure agents.
 
+<a href="https://sarinadfernandez-create.github.io/axolotl-run/"> <img src="https://raw.githubusercontent.com/sarinadfernandez-create/sarinadfernandez-create/main/axolotl-banner.svg" alt="▶ Play Axolotl Run" width="800" /> </a>
+
 ## About Me
 
 - At **Naïve**, I work on an event-sourced memory system where an LLM curator distills conversations into verified, supersedable facts — reconciled against reality, with audit-grade evidence trails
