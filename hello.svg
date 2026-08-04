@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="90" viewBox="0 0 620 90" role="img" aria-label="Hi, I'm Sarina!">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff6ac1">
+        <animate attributeName="stop-color" values="#ff6ac1;#a277ff;#61ffca;#ffb86c;#ff6ac1" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" stop-color="#a277ff">
+        <animate attributeName="stop-color" values="#a277ff;#61ffca;#ffb86c;#ff6ac1;#a277ff" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#61ffca">
+        <animate attributeName="stop-color" values="#61ffca;#ffb86c;#ff6ac1;#a277ff;#61ffca" dur="8s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+  </defs>
+  <text x="0" y="60" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="48" font-weight="800" fill="url(#grad)">Hi, I'm Sarina!</text>
+  <text x="330" y="60" font-size="46">👋<animateTransform attributeName="transform" type="rotate" values="0 355 50; 18 355 50; -10 355 50; 14 355 50; -4 355 50; 0 355 50" dur="1.8s" repeatCount="indefinite"/></text>
+</svg>
